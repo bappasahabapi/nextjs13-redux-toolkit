@@ -6,7 +6,7 @@ import Counter1 from './components/Counter1'
 export default function Home() {
   return (
    <main>
-    <h1>This is main layout page</h1>
+    <h1 className='text-center font-bold'>This is main layout page</h1>
     <Link href='/json-user'>json-user</Link>
     <Counter/>
     <Counter1/>
