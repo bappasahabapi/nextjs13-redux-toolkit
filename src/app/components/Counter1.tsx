@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <main style={{ maxWidth: 1200, marginInline: "auto", padding: 20,border:' 2px solid black' , marginTop:"50px", backgroundColor:"" }}>
-       <h3 style={{textAlign:'center'}}>This is coming from counter1 component using 'use client'</h3>
+       <h3 className="text-center font-bold">This is coming from counter1 component using 'use client'</h3>
       {error ? (
         <p>Oh no, there was an error</p>
       ) : isLoading || isFetching ? (
